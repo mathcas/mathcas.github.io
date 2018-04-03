@@ -1,0 +1,40 @@
+body, html {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+footer h4 {
+	background-color: black;
+	text-align: center;
+	color: red;
+	padding: 5px;
+	margin: 0px;
+}
+
+header {
+	background-color: black;
+	color: yellow;
+	margin: 0px;
+	padding: 20px;
+}
+
+header ul li {
+	display: inline;
+}
+
+a {
+	text-decoration:none; 
+	font-size: 160%;
+	color: red;
+}
+
+li {
+	margin-right: 20px;
+}
+
+#padding {
+	padding: 10px;
+	margin: 10px;
+
+}

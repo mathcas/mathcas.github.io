@@ -1,0 +1,54 @@
+table {
+	text-align: center;
+	margin: auto;
+	background-color: coral;
+}
+
+th, td, tr, table{
+	border: 1px solid black;
+}
+
+h1 {
+	background-color: black;
+	color: red;
+	text-align: center;
+}
+
+body {
+	background-color: gray;
+}
+
+body, html {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+footer h4 {
+	background-color: black;
+	text-align: center;
+	color: red;
+	padding: 5px;
+	margin: 0px;
+}
+
+header {
+	background-color: black;
+	color: yellow;
+	margin: 0px;
+	padding: 20px;
+}
+
+header ul li {
+	display: inline;
+}
+
+a {
+	text-decoration:none; 
+	font-size: 160%;
+	color: red;
+}
+
+li {
+	margin-right: 20px;
+}

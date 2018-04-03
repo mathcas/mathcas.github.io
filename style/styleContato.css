@@ -1,0 +1,60 @@
+p {
+	font-family:  "Times New Roman";
+	color: yellow;
+}
+
+body , html{
+	background-color: gray;
+	margin: 0px;
+}
+
+body {
+	padding: 10px;
+}
+
+#message {
+	height: 100px;
+	width: 500px;
+	white-space: pre;
+	overflow: hidden;
+}
+
+#submitButton {
+	margin-left: 455px;
+}
+
+
+body, html {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+footer h4 {
+	background-color: black;
+	text-align: center;
+	color: red;
+	padding: 5px;
+	margin: 0px;
+}
+
+header {
+	background-color: black;
+	color: yellow;
+	margin: 0px;
+	padding: 20px;
+}
+
+header ul li {
+	display: inline;
+}
+
+li {
+	margin-right: 20px;
+}
+
+a {
+	text-decoration:none; 
+	font-size: 160%;
+	color: red;
+}
