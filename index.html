@@ -1,29 +1,95 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Projeto Semestral</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style/styleIndex.css">
-	
-	
+<html><head>
+	<meta name="Description" content="Matheus José de Castro - Backend / Android Software Engineer">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+	<title>Matheus José de Castro - Backend / Android Software Engineer</title>
+
+	<style>
+		* {
+			font-family: 'Montserrat', sans-serif;
+		}
+
+		#main {
+			min-height: 80vh;
+		}
+
+		h1 {
+			font-size: 2.3em;
+		}
+      
+      .item_link{
+      		color:black;
+			text-decoration: none;
+			font-size: 1.3em;
+			margin:1vw;
+      }
+
+		.links {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+
+		#picture {
+			border-radius: 100%;
+		}
+
+		.center-horizontal {
+			display: flex;
+			justify-content: center;
+		}
+
+		.center {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+      
+      .hidden_link{
+      		color:white;
+      }
+      
+      .hidden_link:hover, .hidden_link:active{
+      		color:black;
+      }
+      
+	</style>
 </head>
 
 <body>
-	
-	<a href="imagens/matheus.jpg" target="_blank"><img src="imagens/matheus.jpg"></a>
-	<header>
-		<ul>
-			<li><a href="escolas.html">Escolas</a></li>
-			<li><a href="formularioContato.html">Contato</a></li>
-			<li><a href="info.html">Informações</a></li>
-		</ul>
-	</header>
-	
-	<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1ONI2ok2IbZNHW1lznpYCWBxK75gb5AYq" ></iframe>
 
-	<footer>
-		<h4>© COPYRIGHTI 2018 - MATHEUS CASTRO, TODOS OS DIREITOS RESERVADOS.</h4>
-	</footer>
-
-</body>
-</html>
+	<div id="main" class="center">
+		<div>
+			<figure class="center-horizontal">
+				<img   id="picture" src="imagens/matheus.jpg" alt="Matheus Castro" style="object-fit:cover;
+				width:300px;
+				height:auto;
+				border: solid 1px #CCC"/> 
+			</figure>
+			<h1 class="center-horizontal">Matheus Castro</h1>
+			<div class="links">
+				<a class="item_link" href="https://www.linkedin.com/in/matheus-castro-4b64b749/" target="_blank">
+					<i class="fab fa-linkedin"></i> LinkedIn
+				</a>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a class="item_link" href="https://github.com/mathcas" target="_blank">
+					<i class="fab fa-github"></i> GitHub
+				</a>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a class="item_link" href="mailto:castromatth@gmail.com" target="_blank">
+					<i class="fas fa-at"></i> E-mail
+				</a>	
+				<a class="item_link" href="https://www.instagram.com/matheuscastro05/" target="_blank">
+					<i class="fab fa-instagram"></i> Instagram
+				</a>
+			</div>
+		</div>
+	</div>
+	<small>
+		<p class="center-horizontal">I'll make a better page.</p>
+		<p class="center-horizontal">Someday.</p>
+	</small>
+</body></html>
